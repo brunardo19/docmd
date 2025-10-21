@@ -1,0 +1,29 @@
+[project]
+name = "docmd"
+version = "0.1.0"
+description = "A simple CLI tool to merge and dump the contents of multiple files into a single document."
+authors = [
+    {name = "brunardo19", email = "brunonastico@gmail.com"},
+]
+
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Utilities",
+]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/brunardo19/docmd"
+Repository = "https://github.com/brunardo19/docmd"
+
+[project.scripts]
+docmd = "docmdumper.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
