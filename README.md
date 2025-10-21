@@ -8,6 +8,8 @@
 pip install git+https://github.com/brunardo19/docmd.git
 ```
 
+Requires Python 3.7 or higher and git
+
 ## Usage
 
 ```bash
